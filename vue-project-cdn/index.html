@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zeinab Nademi</title>
+</head>
+<body>
+
+  <div id="app">
+    <h2>{{ massage }}</h2>
+  </div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+  <script>
+    const app = Vue.createApp({
+        data(){
+            return{
+                massage:"Zeinab Nademi"
+            }
+        }
+    })
+    app.mount("#app")
+    
+  </script>
+
+</body>
+</html>
